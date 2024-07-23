@@ -16,6 +16,8 @@
 		BD6286BB2C43168300683A8D /* FlilterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6286BA2C43168300683A8D /* FlilterDemoTests.swift */; };
 		BD6286C52C43168300683A8D /* FlilterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6286C42C43168300683A8D /* FlilterDemoUITests.swift */; };
 		BD6286C72C43168300683A8D /* FlilterDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6286C62C43168300683A8D /* FlilterDemoUITestsLaunchTests.swift */; };
+		BDBC938A2C45B2CD00B87F9C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC93892C45B2CD00B87F9C /* MainViewController.swift */; };
+		BDBC938C2C45B3CF00B87F9C /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC938B2C45B3CF00B87F9C /* BottomSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BD6286C02C43168300683A8D /* FlilterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlilterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6286C42C43168300683A8D /* FlilterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlilterDemoUITests.swift; sourceTree = "<group>"; };
 		BD6286C62C43168300683A8D /* FlilterDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlilterDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDBC93892C45B2CD00B87F9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BDBC938B2C45B3CF00B87F9C /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				BD6286A32C43168100683A8D /* AppDelegate.swift */,
 				BD6286A52C43168100683A8D /* SceneDelegate.swift */,
 				BD6286A72C43168100683A8D /* ViewController.swift */,
+				BDBC93892C45B2CD00B87F9C /* MainViewController.swift */,
+				BDBC938B2C45B3CF00B87F9C /* BottomSheetViewController.swift */,
 				BD6286A92C43168100683A8D /* Main.storyboard */,
 				BD6286AC2C43168300683A8D /* Assets.xcassets */,
 				BD6286AE2C43168300683A8D /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 				BD6286A82C43168100683A8D /* ViewController.swift in Sources */,
 				BD6286A42C43168100683A8D /* AppDelegate.swift in Sources */,
 				BD6286A62C43168100683A8D /* SceneDelegate.swift in Sources */,
+				BDBC938C2C45B3CF00B87F9C /* BottomSheetViewController.swift in Sources */,
+				BDBC938A2C45B2CD00B87F9C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

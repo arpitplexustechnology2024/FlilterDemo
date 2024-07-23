@@ -8,22 +8,20 @@
 import UIKit
 
 class BottomSheetViewController: UIViewController {
-
+    
+    @IBOutlet weak var bottomSheetLabel: UILabel!
+    @IBOutlet weak var bottomSheetButton: UIButton!
+    
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            
+            view.layer.cornerRadius = 28
+            view.layer.masksToBounds = true
+        }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        bottomSheetLabel.text = "This is the Bottom Sheet"
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
